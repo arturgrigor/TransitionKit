@@ -18,7 +18,7 @@
 //  limitations under the License.
 //
 
-#import "Kiwi.h"
+#import <Kiwi/Kiwi.h>
 #import "TransitionKit.h"
 
 @interface TKSpecPerson : NSObject
