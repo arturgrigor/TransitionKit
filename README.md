@@ -1,7 +1,8 @@
 TransitionKit
 =============
 
-[![Build Status](https://travis-ci.org/blakewatters/TransitionKit.png?branch=master,development)](https://travis-ci.org/blakewatters/TransitionKit) 
+[![Build Status](https://travis-ci.org/blakewatters/TransitionKit.png?branch=master,development)](https://travis-ci.org/blakewatters/TransitionKit)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![Pod Version](https://cocoapod-badges.herokuapp.com/v/TransitionKit/badge.png) 
 ![Pod Platform](https://cocoapod-badges.herokuapp.com/p/TransitionKit/badge.png)
 
