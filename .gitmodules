@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/Kiwi"]
+	path = Carthage/Checkouts/Kiwi
+	url = https://github.com/kiwi-bdd/Kiwi.git

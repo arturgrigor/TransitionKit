@@ -33,8 +33,8 @@
 		FE09364F1E8038010092BF67 /* TKStateMachineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C465116F6A57700CF1FEA /* TKStateMachineSpec.m */; };
 		FE0936501E8038010092BF67 /* TKEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C465516F6A58700CF1FEA /* TKEventSpec.m */; };
 		FE0936511E8038010092BF67 /* TKStateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C465916F6A59500CF1FEA /* TKStateSpec.m */; };
-		FEF0DB751ECECC42000EE0BA /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF0DB701ECECC33000EE0BA /* Kiwi.framework */; };
-		FEF0DB761ECECC44000EE0BA /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF0DB731ECECC33000EE0BA /* Kiwi.framework */; };
+		FE22D95A1F44597600FBB6F6 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22D94E1F44593E00FBB6F6 /* Kiwi.framework */; };
+		FE22D95D1F4459D700FBB6F6 /* Kiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22D9521F44593E00FBB6F6 /* Kiwi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = FE0936051E80373D0092BF67;
 			remoteInfo = "TransitionKit macOS";
+		};
+		FE22D94D1F44593E00FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE87C4231AF194E900310C07;
+			remoteInfo = "Kiwi-iOS";
+		};
+		FE22D94F1F44593E00FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE87C42D1AF194EA00310C07;
+			remoteInfo = "KiwiTests-iOS";
+		};
+		FE22D9511F44593E00FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4AE02FBD1AEB45EB00556381;
+			remoteInfo = "Kiwi-OSX";
+		};
+		FE22D9531F44593E00FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4AE02FC71AEB45EB00556381;
+			remoteInfo = "KiwiTests-OSX";
+		};
+		FE22D9581F44597300FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CE87C4221AF194E900310C07;
+			remoteInfo = "Kiwi-iOS";
+		};
+		FE22D95B1F4459D200FBB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE02FBC1AEB45EB00556381;
+			remoteInfo = "Kiwi-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -81,8 +123,7 @@
 		FE0936211E8037520092BF67 /* TransitionKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE09362C1E8037A70092BF67 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0936531E8038120092BF67 /* TransitionKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TransitionKit.podspec; sourceTree = "<group>"; };
-		FEF0DB701ECECC33000EE0BA /* Kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kiwi.framework; sourceTree = "<group>"; };
-		FEF0DB731ECECC33000EE0BA /* Kiwi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kiwi.framework; sourceTree = "<group>"; };
+		FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Carthage/Checkouts/Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF0DB751ECECC42000EE0BA /* Kiwi.framework in Frameworks */,
+				FE22D95A1F44597600FBB6F6 /* Kiwi.framework in Frameworks */,
 				FE0936171E80374A0092BF67 /* TransitionKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,7 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF0DB761ECECC44000EE0BA /* Kiwi.framework in Frameworks */,
+				FE22D95D1F4459D700FBB6F6 /* Kiwi.framework in Frameworks */,
 				FE0936261E8037520092BF67 /* TransitionKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,11 +166,11 @@
 			isa = PBXGroup;
 			children = (
 				FE0936531E8038120092BF67 /* TransitionKit.podspec */,
-				FEF0DB6C1ECECC33000EE0BA /* Carthage */,
 				252C460316F6833D00CF1FEA /* Code */,
 				252C460816F6835900CF1FEA /* Specs */,
 				252C45DA16F681D400CF1FEA /* Frameworks */,
 				252C45D916F681D400CF1FEA /* Products */,
+				FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,37 +235,15 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		FEF0DB6C1ECECC33000EE0BA /* Carthage */ = {
+		FE22D9471F44593E00FBB6F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEF0DB6D1ECECC33000EE0BA /* Build */,
+				FE22D94E1F44593E00FBB6F6 /* Kiwi.framework */,
+				FE22D9501F44593E00FBB6F6 /* KiwiTests.xctest */,
+				FE22D9521F44593E00FBB6F6 /* Kiwi.framework */,
+				FE22D9541F44593E00FBB6F6 /* KiwiTests.xctest */,
 			);
-			path = Carthage;
-			sourceTree = "<group>";
-		};
-		FEF0DB6D1ECECC33000EE0BA /* Build */ = {
-			isa = PBXGroup;
-			children = (
-				FEF0DB6F1ECECC33000EE0BA /* iOS */,
-				FEF0DB721ECECC33000EE0BA /* Mac */,
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
-		FEF0DB6F1ECECC33000EE0BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FEF0DB701ECECC33000EE0BA /* Kiwi.framework */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		FEF0DB721ECECC33000EE0BA /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				FEF0DB731ECECC33000EE0BA /* Kiwi.framework */,
-			);
-			path = Mac;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +319,11 @@
 				FE09360E1E80374A0092BF67 /* Sources */,
 				FE09360F1E80374A0092BF67 /* Frameworks */,
 				FE0936101E80374A0092BF67 /* Resources */,
-				FEF0DB771ECECCA7000EE0BA /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FE22D9591F44597300FBB6F6 /* PBXTargetDependency */,
 				FE0936191E80374A0092BF67 /* PBXTargetDependency */,
 			);
 			name = "TransitionKit iOS Tests";
@@ -319,11 +338,11 @@
 				FE09361D1E8037520092BF67 /* Sources */,
 				FE09361E1E8037520092BF67 /* Frameworks */,
 				FE09361F1E8037520092BF67 /* Resources */,
-				FEF0DB781ECECCAC000EE0BA /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FE22D95C1F4459D200FBB6F6 /* PBXTargetDependency */,
 				FE0936281E8037520092BF67 /* PBXTargetDependency */,
 			);
 			name = "TransitionKit macOS Tests";
@@ -368,6 +387,12 @@
 			mainGroup = 252C45CF16F681D400CF1FEA;
 			productRefGroup = 252C45D916F681D400CF1FEA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FE22D9471F44593E00FBB6F6 /* Products */;
+					ProjectRef = FE22D9461F44593E00FBB6F6 /* Kiwi.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FE0935F81E8037330092BF67 /* TransitionKit iOS */,
@@ -377,6 +402,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FE22D94E1F44593E00FBB6F6 /* Kiwi.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kiwi.framework;
+			remoteRef = FE22D94D1F44593E00FBB6F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE22D9501F44593E00FBB6F6 /* KiwiTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.xctest;
+			remoteRef = FE22D94F1F44593E00FBB6F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE22D9521F44593E00FBB6F6 /* Kiwi.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kiwi.framework;
+			remoteRef = FE22D9511F44593E00FBB6F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE22D9541F44593E00FBB6F6 /* KiwiTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.xctest;
+			remoteRef = FE22D9531F44593E00FBB6F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FE0935F71E8037330092BF67 /* Resources */ = {
@@ -408,39 +464,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FEF0DB771ECECCA7000EE0BA /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Kiwi.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		FEF0DB781ECECCAC000EE0BA /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/Kiwi.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE0935F41E8037330092BF67 /* Sources */ = {
@@ -497,6 +520,16 @@
 			isa = PBXTargetDependency;
 			target = FE0936051E80373D0092BF67 /* TransitionKit macOS */;
 			targetProxy = FE0936271E8037520092BF67 /* PBXContainerItemProxy */;
+		};
+		FE22D9591F44597300FBB6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kiwi-iOS";
+			targetProxy = FE22D9581F44597300FBB6F6 /* PBXContainerItemProxy */;
+		};
+		FE22D95C1F4459D200FBB6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kiwi-OSX";
+			targetProxy = FE22D95B1F4459D200FBB6F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

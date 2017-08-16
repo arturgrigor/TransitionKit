@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "47A63E07BF2C4AE0426F985EBA351C687092A209",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4FD7C20106F5BD91089CFF7BC197AC2E448D173B" : 9223372036854775807,
+    "47A63E07BF2C4AE0426F985EBA351C687092A209" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "101D6D42-F2C2-4F98-97DE-0A0FE3ADB4F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4FD7C20106F5BD91089CFF7BC197AC2E448D173B" : "TransitionKit\/Carthage\/Checkouts\/Kiwi\/",
+    "47A63E07BF2C4AE0426F985EBA351C687092A209" : "TransitionKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TransitionKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TransitionKit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/arturgrigor\/TransitionKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47A63E07BF2C4AE0426F985EBA351C687092A209"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kiwi-bdd\/Kiwi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FD7C20106F5BD91089CFF7BC197AC2E448D173B"
+    }
+  ]
+}
